@@ -1,0 +1,11 @@
+{
+  "name": "recipe-book",
+  "version": "1.0.0",
+  "description": "Recipe Book Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Colin Bingham <cbingham96@gmail.com> (colinbingham.com)",
+  "license": "MIT"
+}

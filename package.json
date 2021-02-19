@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Colin Bingham <cbingham96@gmail.com> (colinbingham.com)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "history": "^5.0.0"
+  }
 }

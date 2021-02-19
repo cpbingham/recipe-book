@@ -1,14 +1,13 @@
-import React, {useEffect} from 'react';
-import ReactDOM from 'react-dom';
+import React, { useEffect } from 'react';
 
-import {makeStyles} from '@material-ui/core/styles';
-import {ThemeProvider} from '@material-ui/core/styles'
+import { makeStyles } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/core/styles';
+import { Router } from 'react-router-dom';
+import history from 'history/browser';
 
+import Routes from './Routes';
 import NavBar from './components/NavBar';
 import theme from './theme';
-
-console.log(theme);
-
 
 const useStyles = makeStyles( theme => ({
     root: {
@@ -22,7 +21,9 @@ const RecipeBook = () => {
     return (
         <ThemeProvider theme={theme}>
             <div className={classes.root}>
-                <NavBar />
+                <Router history={history}>
+                    <Routes />
+                </Router>
             </div>
         </ThemeProvider>
     );

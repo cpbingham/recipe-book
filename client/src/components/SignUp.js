@@ -1,18 +1,12 @@
 import React from 'react';
 
-const useStyles = makeStyles({
-    signUpForm: {
-       
-    }
-})
+import NavBar from './NavBar';
 
 const SignUp = () => {
-    const classes = useStyles();
     return (
         <div>
-            <div>
-
-            </div>
+            <NavBar />
+            Sign Up Page
         </div>
     );
 }

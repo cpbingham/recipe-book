@@ -9,15 +9,7 @@ import Routes from "./Routes";
 import NavBar from "./components/NavBar";
 import theme from "./theme";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    height: "100%",
-    backgroundColor: theme.palette.background,
-  },
-}));
-
 const RecipeBook = () => {
-  const classes = useStyles();
   return (
     <ThemeProvider theme={theme}>
       <Router history={history}>

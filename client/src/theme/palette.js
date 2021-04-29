@@ -1,15 +1,15 @@
 export default {
   primary: {
-    main: "#1D1D2C",
+    main: '#1D1D2C',
   },
   secondary: {
-    main: "#E40C2B",
+    main: '#E40C2B',
   },
   background: {
-    default: "#F7F4E9",
+    default: '#F7F4E9',
   },
   text: {
     primary: '#FFFFFF',
-    secondary: '#1D1D2C'
-  }
+    secondary: '#1D1D2C',
+  },
 };

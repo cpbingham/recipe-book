@@ -1,18 +1,18 @@
-import React from "react";
-import { withRouter } from "react-router-dom";
-import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import TextField from "@material-ui/core/TextField";
-import Button from "@material-ui/core/Button"
+import React from 'react';
+import { withRouter } from 'react-router-dom';
+import { makeStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
 
-import NavBar from "./NavBar";
+import NavBar from './NavBar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    height: "100%",
+    height: '100%',
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   signUpModal: {
     display: 'grid',
@@ -20,27 +20,27 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.primary.main,
     padding: 16,
     justifyItems: 'center',
-    borderRadius: 12
+    borderRadius: 12,
   },
   modalHeader: {
-    color: theme.palette.text.primary
+    color: theme.palette.text.primary,
   },
   modalFooter: {
-    color: theme.palette.text.primary
+    color: theme.palette.text.primary,
   },
   modalInput: {
     backgroundColor: '#FFF',
     opacity: 0.2,
     height: 32,
     width: '90%',
-    borderRadius: 6
+    borderRadius: 6,
   },
   modalButton: {
-    borderRadius: 96
+    borderRadius: 96,
   },
   loginLink: {
-    color: theme.palette.text.primary
-  }
+    color: theme.palette.text.primary,
+  },
 }));
 
 const SignUp = () => {

@@ -1,22 +1,19 @@
-import React, { useEffect } from "react";
+import React from 'react';
 
-import { makeStyles } from "@material-ui/core/styles";
-import { ThemeProvider } from "@material-ui/core/styles";
-import { Router } from "react-router-dom";
-import history from "history/browser";
+import { ThemeProvider } from '@material-ui/core/styles';
 
-import Routes from "./Routes";
-import NavBar from "./components/NavBar";
-import theme from "./theme";
+import { Router } from 'react-router-dom';
+import history from 'history/browser';
 
-const RecipeBook = () => {
-  return (
-    <ThemeProvider theme={theme}>
-      <Router history={history}>
-        <Routes />
-      </Router>
-    </ThemeProvider>
-  );
-};
+import Routes from './Routes';
+import theme from './theme';
+
+const RecipeBook = () => (
+  <ThemeProvider theme={theme}>
+    <Router history={history}>
+      <Routes />
+    </Router>
+  </ThemeProvider>
+);
 
 export default RecipeBook;

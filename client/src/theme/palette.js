@@ -8,4 +8,8 @@ export default {
   background: {
     default: "#F7F4E9",
   },
+  text: {
+    primary: '#FFFFFF',
+    secondary: '#1D1D2C'
+  }
 };
